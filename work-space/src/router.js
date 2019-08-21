@@ -28,5 +28,20 @@ export default new Router({
       name: 'vue计算属性和侦听器',
       component: () => import( /* webpackChunkName: "about" */ './views/Vue计算属性侦听器.vue')
     },
+    {
+      path: '/vueClassStyle',
+      name: 'vueClass、style测试',
+      component: () => import( /* webpackChunkName: "about" */ './views/VueClass-style绑定/VueClass-style绑定.vue')
+    },
+    {
+      path: '/vueConditionRender',
+      name: 'vue条件渲染',
+      component: () => import( /* webpackChunkName: "about" */ './views/Vue条件渲染.vue')
+    },
+    {
+      path: '/vueListRender',
+      name: 'vue列表渲染',
+      component: () => import( /* webpackChunkName: "about" */ './views/Vue列表渲染.vue')
+    }
   ]
 })
