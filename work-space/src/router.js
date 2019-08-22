@@ -42,6 +42,21 @@ export default new Router({
       path: '/vueListRender',
       name: 'vue列表渲染',
       component: () => import( /* webpackChunkName: "about" */ './views/Vue列表渲染.vue')
+    },
+    {
+      path: '/vueEvent',
+      name: 'vue事件处理',
+      component: () => import( /* webpackChunkName: "about" */ './views/Vue事件处理.vue')
+    },
+    {
+      path: '/vueInputBind',
+      name: 'vue表单输入绑定',
+      component: () => import( /* webpackChunkName: "about" */ './views/Vue表单输入绑定.vue')
+    },
+    {
+      path: '/vueComponentBase',
+      name: 'vue组件基础',
+      component: () => import( /* webpackChunkName: "about" */ './views/Vue组件基础/Vue组件基础.vue')
     }
   ]
 })
