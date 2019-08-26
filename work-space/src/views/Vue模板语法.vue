@@ -34,7 +34,6 @@
 </template>
 
 <script>
-import split from "../components/split";
 export default {
   data() {
     return {
@@ -60,7 +59,6 @@ export default {
     ulClick() {
       console.log("ul happen!");
     }
-  },
-  components: { split }
+  }
 };
 </script>

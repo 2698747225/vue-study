@@ -56,7 +56,6 @@
   </div>
 </template>
 <script>
-import split from "../components/split";
 export default {
   data() {
     return {
@@ -70,7 +69,6 @@ export default {
       arr: [1, 2, 3, 4, 5]
     };
   },
-  components: { split },
   watch: {
     changeArr() {
       console.log("数组变动");

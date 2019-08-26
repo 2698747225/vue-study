@@ -38,7 +38,6 @@
   </div>
 </template>
 <script>
-import split from "../components/split";
 export default {
   name: "Vue计算属性和侦听",
   data() {
@@ -94,9 +93,6 @@ export default {
       },
       deep: true
     }
-  },
-  components: {
-    split
   },
   created() {
     /**

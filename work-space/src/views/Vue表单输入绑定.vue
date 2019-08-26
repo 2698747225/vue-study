@@ -52,9 +52,7 @@
   </div>
 </template>
 <script>
-import split from "../components/split";
 export default {
-  components: { split },
   data() {
     return {
       textModel: "",

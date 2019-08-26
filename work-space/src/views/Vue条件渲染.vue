@@ -23,14 +23,12 @@
   </div>
 </template>
 <script>
-import split from "../components/split";
 export default {
   data() {
     return {
       show: true
     };
-  },
-  components: { split }
+  }
 };
 </script>
 <style lang="less" scoped>

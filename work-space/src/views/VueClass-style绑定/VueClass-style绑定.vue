@@ -32,7 +32,6 @@
   </div>
 </template>
 <script>
-import split from "../../components/split";
 import children from "./VueClass-style绑定（子组件）";
 export default {
   data() {
@@ -46,7 +45,7 @@ export default {
     };
   },
   methods: {},
-  components: { split, children }
+  components: { children }
 };
 </script>
 <style lang="less" scoped>

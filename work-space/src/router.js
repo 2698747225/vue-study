@@ -1,16 +1,10 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Home from './views/Home.vue'
 
 Vue.use(Router)
 
 export default new Router({
   routes: [{
-      path: '/',
-      name: 'home',
-      component: Home
-    },
-    {
       path: '/vueInstance',
       name: 'vue实例',
       // route level code-splitting
@@ -57,6 +51,11 @@ export default new Router({
       path: '/vueComponentBase',
       name: 'vue组件基础',
       component: () => import( /* webpackChunkName: "about" */ './views/Vue组件基础/Vue组件基础.vue')
+    },
+    {
+      path: '/propComponent',
+      name: 'props验证',
+      component: () => import( /* webpackChunkName: "about" */ './views/Props/Props类型验证.vue')
     }
   ]
 })

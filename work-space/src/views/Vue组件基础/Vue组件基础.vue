@@ -1,5 +1,5 @@
 <!-- 
-    1、通过props从父组件向子组件传递数据
+    1、通过props从父组件向子组件传递数据（包含子组件直接修改props属性测试）
     2、监听子组件事件
     3、组件使用v-model
     4、插槽
@@ -49,14 +49,14 @@
   </div>
 </template>
 <script>
-import split from "../../components/split";
+// import split from "../../components/split";
 import children1 from "./Vue组件基础（子组件）";
 import children2 from "./Vue组件基础（子组件2）";
 import children3 from "./Vue组件基础（插槽）";
 import first from "./测试组件1";
 import second from "./测试组件2";
 export default {
-  components: { split, children1, children2, children3, first, second },
+  components: { children1, children2, children3, first, second },
   data() {
     return {
       msg: "这是由父传递给子组件的msg",

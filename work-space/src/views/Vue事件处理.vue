@@ -64,7 +64,6 @@
   </div>
 </template>
 <script>
-import split from "../components/split";
 export default {
   data() {
     return {
@@ -84,8 +83,7 @@ export default {
     event2() {
       console.log("事件2执行成功！");
     }
-  },
-  components: { split }
+  }
 };
 </script>
 <style lang="less" scoped>

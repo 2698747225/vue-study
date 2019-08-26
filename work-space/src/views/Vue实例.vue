@@ -29,7 +29,6 @@
   </div>
 </template>
 <script>
-import split from "../components/split";
 export default {
   name: "Vue实例",
   data() {
@@ -42,9 +41,6 @@ export default {
       beforeMount: null,
       mounted: null
     };
-  },
-  components: {
-    split
   },
   methods: {
     baseDataPAdd() {
