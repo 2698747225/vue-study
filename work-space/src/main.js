@@ -30,7 +30,7 @@ requireComponent.keys().forEach(fileName => {
       .replace(/\.\w+$/, '')
     )
   );
-  // 全局注册组件
+  // 全局注册组件(必须在根模块创建前注册)
   Vue.component(
     componentName,
     // 如果这个组件选项是通过 `export default` 导出的，
@@ -43,5 +43,8 @@ requireComponent.keys().forEach(fileName => {
 new Vue({
   router,
   store,
-  render: h => h(App)
+  render: h => h(App),
+  data: {
+    data: 1
+  }
 }).$mount('#app')
