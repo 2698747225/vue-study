@@ -56,6 +56,26 @@ export default new Router({
       path: '/propComponent',
       name: 'props验证',
       component: () => import( /* webpackChunkName: "about" */ './views/Props/Props类型验证.vue')
+    },
+    {
+      path: '/customizeEvent',
+      name: 'vue自定义事件',
+      component: () => import( /* webpackChunkName: "about" */ './views/Vue自定义事件/Vue自定义事件.vue')
+    },
+    {
+      path: '/vueSlot',
+      name: 'vue插槽',
+      component: () => import( /* webpackChunkName: "about" */ './views/Vue插槽/Vue插槽.vue')
+    },
+    {
+      path: '/vueDynamicComponent',
+      name: 'vue动态组件',
+      component: () => import( /* webpackChunkName: "about" */ './views/Vue动态组件/Vue动态组件.vue')
+    },
+    {
+      path: '/vueBoundary',
+      name: 'vue边界处理',
+      component: () => import( /* webpackChunkName: "about" */ './views/处理边界情况/Vue边界处理.vue')
     }
   ]
 })
