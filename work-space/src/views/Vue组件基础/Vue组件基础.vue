@@ -25,6 +25,14 @@
         <input type="text" v-model="text"/>相当于<input type="text" :value="text" @input="$emit(text,value)"/>
         使用在组件中时：
         <childComponent v-model="text"></childComponent>等同于<childComponent :value="text" @input="text = $event"></childComponent>
+        而在子组件中：
+        <template>
+          <input type="text" :value="value" @input="$emit(value,$event.target.value)"/>
+        </template>
+        <script>
+          // 这里需要接收value props
+          props:['value']
+        </script>
     -->
 
     <split>插槽</split>
