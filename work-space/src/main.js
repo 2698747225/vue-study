@@ -6,6 +6,8 @@ import {
   upperFirst,
   camelCase
 } from 'lodash'
+import axios from 'axios'
+import VueAxios from 'vue-axios'
 
 Vue.config.productionTip = false
 // 使用webpackContext引入目录下文件
@@ -40,6 +42,7 @@ requireComponent.keys().forEach(fileName => {
   )
 });
 
+Vue.use(VueAxios, axios);
 new Vue({
   router,
   store,

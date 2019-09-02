@@ -1,5 +1,6 @@
 const path = require('path')
 const webpack = require('webpack')
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 function resolve(dir) {
     return path.join(__dirname, dir)
@@ -26,7 +27,22 @@ module.exports = {
         plugins: [
             new webpack.ProvidePlugin({
                 // $: 'jquery',
-            })
-        ]
-    }
+            }),
+            new CopyWebpackPlugin([{
+                from: path.join(__dirname, "./src/json/*.json"),
+                to: path.join(__dirname, "./dist/json/"),
+                // 删除所有目录引用，仅使用最终文件
+                flatten: true
+            }])
+        ],
+    },
+    // chainWebpack: config => {
+    //     // GraphQL Loader
+    //     config.module
+    //         .rule('json')
+    //         .test(/\.json$/)
+    //         .use('json')
+    //         .loader('json-loader')
+    //         .end()
+    // }
 }
