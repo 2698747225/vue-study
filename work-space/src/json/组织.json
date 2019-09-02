@@ -1,0 +1,272 @@
+{
+    "saleConsultants": [{
+        "lcbUserId": 1481,
+        "wechatId": "",
+        "realName": "测试",
+        "nickName": "路寻",
+        "kfType": ["新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 103370,
+        "wechatId": "",
+        "realName": "蒋恺",
+        "nickName": "枫子恺",
+        "kfType": ["新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 15691,
+        "wechatId": "",
+        "realName": "梁江涛",
+        "nickName": "梁",
+        "kfType": ["新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 101070,
+        "wechatId": "",
+        "realName": "测试",
+        "nickName": "胡小林",
+        "kfType": ["公共客服", "新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 103895,
+        "wechatId": "",
+        "realName": "阿小伟啊啊",
+        "nickName": "roller伟 จุ๊บ",
+        "kfType": ["公共客服", "新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 105177,
+        "wechatId": "",
+        "realName": "宋鸣",
+        "nickName": null,
+        "kfType": ["公共客服", "新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 104984,
+        "wechatId": "",
+        "realName": "汪瑶",
+        "nickName": "欢乐瑶",
+        "kfType": ["公共客服", "新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 101720,
+        "wechatId": "jiangkai19931111",
+        "realName": "兰天",
+        "nickName": null,
+        "kfType": ["公共客服", "新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 16604,
+        "wechatId": "legends_tc",
+        "realName": "客服测试二",
+        "nickName": null,
+        "kfType": ["公共客服", "售后客服", "新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 10400643,
+        "wechatId": "",
+        "realName": "杨建",
+        "nickName": "test",
+        "kfType": ["售后客服", "新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 101025,
+        "wechatId": "",
+        "realName": "张亚东",
+        "nickName": "张亚东",
+        "kfType": ["售后客服", "新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 10400312,
+        "wechatId": "yuzhichen832037",
+        "realName": "兰天二号",
+        "nickName": null,
+        "kfType": ["售后客服", "新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 47,
+        "wechatId": "",
+        "realName": "陈静",
+        "nickName": "鲸吞吞",
+        "kfType": ["新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 100848,
+        "wechatId": "zyd860640450",
+        "realName": "何琛",
+        "nickName": null,
+        "kfType": ["新车客服"],
+        "kfRoles": null
+    }],
+    "serviceConsultant": [{
+        "lcbUserId": 101518,
+        "wechatId": "",
+        "realName": "聂士明是多",
+        "nickName": null,
+        "kfType": ["售后客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 10401099,
+        "wechatId": "",
+        "realName": "李彬",
+        "nickName": null,
+        "kfType": ["售后客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 16603,
+        "wechatId": "",
+        "realName": "客服测试",
+        "nickName": null,
+        "kfType": ["售后客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 16604,
+        "wechatId": "legends_tc",
+        "realName": "客服测试二",
+        "nickName": null,
+        "kfType": ["公共客服", "售后客服", "新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 10400643,
+        "wechatId": "",
+        "realName": "杨建",
+        "nickName": "test",
+        "kfType": ["售后客服", "新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 101025,
+        "wechatId": "",
+        "realName": "张亚东",
+        "nickName": "张亚东",
+        "kfType": ["售后客服", "新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 10400312,
+        "wechatId": "yuzhichen832037",
+        "realName": "兰天二号",
+        "nickName": null,
+        "kfType": ["售后客服", "新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 10401208,
+        "wechatId": "",
+        "realName": "客服测试三",
+        "nickName": null,
+        "kfType": ["售后客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 10401007,
+        "wechatId": "",
+        "realName": "聂明声统",
+        "nickName": null,
+        "kfType": ["售后客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 102261,
+        "wechatId": "wxid_1uqk8m6uv41t21",
+        "realName": "杨航",
+        "nickName": null,
+        "kfType": ["售后客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 101109,
+        "wechatId": "",
+        "realName": "谭潇",
+        "nickName": null,
+        "kfType": ["公共客服", "售后客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 101818,
+        "wechatId": "",
+        "realName": "宋怡文",
+        "nickName": "熊猫",
+        "kfType": ["公共客服", "售后客服"],
+        "kfRoles": null
+    }],
+    "publicKf": [{
+        "lcbUserId": 101070,
+        "wechatId": "",
+        "realName": "测试",
+        "nickName": "胡小林",
+        "kfType": ["公共客服", "新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 103895,
+        "wechatId": "",
+        "realName": "阿小伟啊啊",
+        "nickName": "roller伟 จุ๊บ",
+        "kfType": ["公共客服", "新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 105177,
+        "wechatId": "",
+        "realName": "宋鸣",
+        "nickName": null,
+        "kfType": ["公共客服", "新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 104984,
+        "wechatId": "",
+        "realName": "汪瑶",
+        "nickName": "欢乐瑶",
+        "kfType": ["公共客服", "新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 101720,
+        "wechatId": "jiangkai19931111",
+        "realName": "兰天",
+        "nickName": null,
+        "kfType": ["公共客服", "新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 101085,
+        "wechatId": "",
+        "realName": "韩翰翰",
+        "nickName": null,
+        "kfType": ["公共客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 16604,
+        "wechatId": "legends_tc",
+        "realName": "客服测试二",
+        "nickName": null,
+        "kfType": ["公共客服", "售后客服", "新车客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 100704,
+        "wechatId": "",
+        "realName": "秦梓琪",
+        "nickName": null,
+        "kfType": ["公共客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 10401009,
+        "wechatId": "",
+        "realName": "小程序查询",
+        "nickName": null,
+        "kfType": ["公共客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 104051,
+        "wechatId": "wxid_kieryh4x3mm522",
+        "realName": "测试一",
+        "nickName": null,
+        "kfType": ["公共客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 101109,
+        "wechatId": "",
+        "realName": "谭潇",
+        "nickName": null,
+        "kfType": ["公共客服", "售后客服"],
+        "kfRoles": null
+    }, {
+        "lcbUserId": 101818,
+        "wechatId": "",
+        "realName": "宋怡文",
+        "nickName": "熊猫",
+        "kfType": ["公共客服", "售后客服"],
+        "kfRoles": null
+    }],
+    "onlineChatKf": null
+}

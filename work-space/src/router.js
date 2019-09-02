@@ -76,6 +76,11 @@ export default new Router({
       path: '/vueBoundary',
       name: 'vue边界处理',
       component: () => import( /* webpackChunkName: "about" */ './views/处理边界情况/Vue边界处理.vue')
-    }
+    },
+    {
+      path: '/vueCircle',
+      name: 'vue循环组件',
+      component: () => import( /* webpackChunkName: "about" */ './views/组件相互引用/Vue循环组件1.vue')
+    },
   ]
 })
