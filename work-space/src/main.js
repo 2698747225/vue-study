@@ -8,6 +8,7 @@ import {
 } from 'lodash'
 import axios from 'axios'
 import VueAxios from 'vue-axios'
+import './shared/directive';
 
 Vue.config.productionTip = false
 // 使用webpackContext引入目录下文件
@@ -41,6 +42,13 @@ requireComponent.keys().forEach(fileName => {
     componentConfig.default || componentConfig
   )
 });
+
+// 全局混入会影响所有组件
+Vue.mixin({
+  created() {
+    console.log('component-initial');
+  }
+})
 
 Vue.use(VueAxios, axios);
 new Vue({

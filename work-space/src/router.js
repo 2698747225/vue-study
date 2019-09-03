@@ -82,5 +82,25 @@ export default new Router({
       name: 'vue循环组件',
       component: () => import( /* webpackChunkName: "about" */ './views/组件相互引用/Vue循环组件1.vue')
     },
+    {
+      path: '/vueAnimate',
+      name: 'vue动画',
+      component: () => import( /* webpackChunkName: "about" */ './views/过度and动画/vue动画.vue')
+    },
+    {
+      path: '/vueMixed',
+      name: 'vue混入',
+      component: () => import( /* webpackChunkName: "about" */ './views/Vue混入.vue')
+    },
+    {
+      path: '/vueDirective',
+      name: 'vue指令',
+      component: () => import( /* webpackChunkName: "about" */ './views/Vue指令.vue')
+    },
+    {
+      path: '/vueRender',
+      name: 'vue渲染函数',
+      component: () => import( /* webpackChunkName: "about" */ './views/Vue渲染函数/Vue渲染函数.vue')
+    },
   ]
 })
