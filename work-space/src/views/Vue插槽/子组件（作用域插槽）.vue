@@ -23,6 +23,10 @@ export default {
         time: new Date()
       }
     };
+  },
+  mounted() {
+    // this.$scopedSlots.default({user:this.param})返回一个VNode[]
+    console.log(this.$scopedSlots);
   }
 };
 </script>

@@ -29,7 +29,10 @@
 </template>
 <script>
 export default {
-  props: ["message", "object"]
+  props: ["message", "object", "name"],
+  mounted() {
+    console.log(this.$props);
+  }
 };
 </script>
 <style lang="less" scoped>

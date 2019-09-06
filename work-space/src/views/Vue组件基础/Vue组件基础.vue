@@ -11,7 +11,7 @@
         子组件修改父组件传递变量测试结果在子组件内
     -->
     <split>通过props向子组件传递数据</split>
-    <children1 :message="msg" :object="obj"></children1>
+    <children1 :message="msg" :object="obj" name="liulingyu"></children1>
 
     <!-- 
         和angular的emit相似
@@ -22,12 +22,12 @@
 
     <!-- 
         v-model双向angular相似，v-model使用双向绑定相当于v-bind由model-view，再由$emit通知更新view-model，
-        <input type="text" v-model="text"/>相当于<input type="text" :value="text" @input="$emit(text,value)"/>
+        <input type="text" v-model="text"/>相当于<input type="text" :value="text" @input="text=$event.target.value"/>
         使用在组件中时：
         <childComponent v-model="text"></childComponent>等同于<childComponent :value="text" @input="text = $event"></childComponent>
         而在子组件中：
         <template>
-          <input type="text" :value="value" @input="$emit(value,$event.target.value)"/>
+          <input type="text" :value="value" @input="$emit('input',$event.target.value)"/>
         </template>
         <script>
           // 这里需要接收value props

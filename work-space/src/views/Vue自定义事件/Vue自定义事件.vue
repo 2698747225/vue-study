@@ -12,7 +12,7 @@
     <!-- native只支持子组件根元素有input事件-->
     <children @input.native="inputChange($event)"></children>
 
-    <!-- 顺便写了一个v-model-->
+    <!-- 顺便写了一个v-model，v-model默认会利用名为value的prop和input的listener-->
     <split>对比v-model</split>
     <children3 v-model="value"></children3>
     <label style="color:red;">双向绑定测试：{{value}}</label>

@@ -24,7 +24,7 @@
       :promise="errorData.promise"
     ></testComponet>
 
-    <!-- 同时把所有特性绑定到模板上，只能使用v-bind，直接写":"果然会出现dom编译报错，将当与:title  :age :contain.....-->
+    <!-- 同时把所有特性绑定到模板上，只能使用v-bind，直接写":"果然会出现dom编译报错，相当与:title  :age :contain.....-->
     <split>同时传入对象所有参数</split>
     <testComponet v-bind="successData"></testComponet>
 

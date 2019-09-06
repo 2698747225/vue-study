@@ -102,5 +102,15 @@ export default new Router({
       name: 'vue渲染函数',
       component: () => import( /* webpackChunkName: "about" */ './views/Vue渲染函数/Vue渲染函数.vue')
     },
+    {
+      path: '/vueFunctional',
+      name: 'vue函数式组件',
+      component: () => import( /* webpackChunkName: "about" */ './views/Vue函数式组件/父组件.vue')
+    },
+    {
+      path: '/vueJSX',
+      name: 'vueJSX',
+      component: () => import( /* webpackChunkName: "about" */ './views/Vue渲染函数/Vue（JSX）.vue')
+    },
   ]
 })

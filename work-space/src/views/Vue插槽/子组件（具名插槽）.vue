@@ -10,3 +10,12 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  // 渲染阶段才能拿到$slots和$scopeSlots
+  mounted() {
+    // VNode[]
+    console.log(this.$slots);
+  }
+};
+</script>
