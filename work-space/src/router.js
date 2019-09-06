@@ -110,7 +110,17 @@ export default new Router({
     {
       path: '/vueJSX',
       name: 'vueJSX',
-      component: () => import( /* webpackChunkName: "about" */ './views/Vue渲染函数/Vue（JSX）.vue')
+      component: () => import( /* webpackChunkName: "about" */ './views/Vue渲染函数/Vue（JSX）/父组件.vue')
+    },
+    {
+      path: '/vuePlugin',
+      name: 'vue自定义插件（全局方法）',
+      component: () => import( /* webpackChunkName: "about" */ './views/Vue自定义插件.vue')
+    },
+    {
+      path: '/vueFilter',
+      name: 'vue过滤器',
+      component: () => import( /* webpackChunkName: "about" */ './views/Vue过滤器.vue')
     },
   ]
 })

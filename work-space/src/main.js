@@ -9,6 +9,7 @@ import {
 import axios from 'axios'
 import VueAxios from 'vue-axios'
 import './shared/directive';
+import shareMethod from './shared/methods';
 
 Vue.config.productionTip = false
 // 使用webpackContext引入目录下文件
@@ -52,6 +53,9 @@ Vue.mixin({
 })
 
 Vue.use(VueAxios, axios);
+// 自定义插件
+Vue.use(shareMethod);
+// 使用的插件都需要在Vue启动应用之前
 new Vue({
   router,
   store,
