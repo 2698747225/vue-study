@@ -46,7 +46,8 @@ requireComponent.keys().forEach(fileName => {
 // 全局混入会影响所有组件
 Vue.mixin({
   created() {
-    console.log('component-initial');
+    // 混入后，作用域也会修改为混入组件的作用域
+    // console.log(this.$vnode.tag);
   }
 })
 
