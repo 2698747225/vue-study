@@ -1,7 +1,7 @@
 export default {
     install(Vue) {
         let timeout;
-        Vue.prototype.debounce = function (fnc, time) {
+        Vue.prototype.$debounce = function (fnc, time) {
             if (timeout) {
                 clearTimeout(timeout);
             }

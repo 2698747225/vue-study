@@ -14,6 +14,7 @@ module.exports = {
             hot: true,
             compress: true,
         },
+        devtool: '#source-map',
         resolve: {
             extensions: ['.js', '.vue', '.json'],
             alias: {

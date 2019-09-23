@@ -26,7 +26,7 @@
     <!-- 可以检测到-->
     <button @click="changeArr.push(changeArr.length+1);">数组push添加</button>
     <!-- 视图、watch都无法检测-->
-    <button @click="changeArr[3]=10;">数组索引修改</button>
+    <button @click="changeArr[2]=10;">数组索引修改</button>
     <!-- 可以检测到-->
     <button @click="changeArr = [1,2,3,4,5,6];">修改数组引用指向</button>
     <!-- 可以检测到 -->

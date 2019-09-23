@@ -15,7 +15,7 @@ export default {
   },
   methods: {
     add() {
-      this.debounce(() => {
+      this.$debounce(() => {
         this.count += 1;
       }, 1000);
     }

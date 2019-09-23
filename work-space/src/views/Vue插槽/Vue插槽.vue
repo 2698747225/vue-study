@@ -106,6 +106,9 @@ export default {
       slotBody2: null,
       dynamicSlotName: "first"
     };
+  },
+  mounted(){
+    console.log(this)
   }
 };
 </script>

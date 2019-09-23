@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-
+import Computed from './views/Vue计算属性侦听器.vue';
 Vue.use(Router)
 
 export default new Router({
@@ -20,7 +20,7 @@ export default new Router({
     {
       path: '/vueComputed',
       name: 'vue计算属性和侦听器',
-      component: () => import( /* webpackChunkName: "about" */ './views/Vue计算属性侦听器.vue')
+      component: Computed
     },
     {
       path: '/vueClassStyle',

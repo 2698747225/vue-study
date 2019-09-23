@@ -5,6 +5,7 @@
 <template>
   <div>
     <split>Vue计算属性Get</split>
+    {{msg}}
     <div>
       <input type="text" v-model="msg" />
       镜像:
@@ -26,6 +27,7 @@
       <!-- 双向绑定数据修改会触发事件监听 -->
       测试修改对象属性
       <input type="text" v-model="obj.title" />
+      <button @click="add()">测试set方法</button>
     </div>
     <div>
       <!-- 测试监听多个参数 -->
@@ -75,6 +77,11 @@ export default {
         console.log("set属性触发！");
         this.fileName = value;
       }
+    }
+  },
+  methods: {
+    add() {
+      this.obj.title = { a: 1 };
     }
   },
   watch: {

@@ -63,7 +63,7 @@
     <ul>
       <li v-for="item in dynamicUpdate" :key="'dynamic'+item">{{item}}</li>
     </ul>
-    <!-- $forceUpdate能够手动使页面响应，类似与angular1的$apply-->
+    <!-- $forceUpdate能够手动使页面响应，类似与angular1的$apply，这里的渲染只针对当前组件-->
     <button @click="dynamicUpdate[2]=11;$forceUpdate()">非响应式修改数组</button>
 
     <split>v-once手动更新（以下模板均为首次更新，不会再次响应）</split>

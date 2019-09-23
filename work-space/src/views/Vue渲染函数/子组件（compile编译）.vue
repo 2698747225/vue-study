@@ -8,16 +8,18 @@ import Vue from "vue";
  * compile方法返回了一个对象{render:f,staticRenderFns:f[]}
  * 可以通过给render函数传递一个上下文，让编译器编译模板，会返回一个[VNode]，render实际上是一个生成VNode的函数
  */
-var temp = Vue.compile("<div><label>liulingyu</label></div>");
+var temp = Vue.compile(
+  "<div><label style='color:red;' v-if=true></br>liulingyu</label></div>"
+);
 export default {
   render() {
     return temp.render.call(this);
   },
-  // 这里还需要看下源码
+  // 这里还需要看下源码，静态渲染部分
   staticRenderFns: temp.staticRenderFns,
   created() {
-    const str = "<div><label>liulingyu</label></div>";
-    console.log(Vue.compile(str).render.call(this));
+    // const str = "<div><label>liulingyu</label></div>";
+    // console.log(Vue.compile(str).render.call(this));
   }
 };
 </script>

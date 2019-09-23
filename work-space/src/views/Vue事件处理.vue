@@ -75,6 +75,9 @@ export default {
       this.sum += 1;
       // 打印MouseEvent对象
       console.log(event);
+      this.$nextTick(() => {
+        console.log(this.$el);
+      });
     },
     stop() {},
     event() {
