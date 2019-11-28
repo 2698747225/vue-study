@@ -1,6 +1,4 @@
-<template>
-  <div>{{title}}</div>
-</template>
+
 <script>
 export default {
   data() {
@@ -8,7 +6,7 @@ export default {
       title: "liulingyu"
     };
   },
-  template: "#hello-world-template"
+  template: "<div>123</div>"
 };
 </script>
 <style lang="less" scoped>

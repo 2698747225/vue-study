@@ -122,5 +122,20 @@ export default new Router({
       name: 'vue过滤器',
       component: () => import( /* webpackChunkName: "about" */ './views/Vue过滤器.vue')
     },
+    {
+      path: '/vueSingle',
+      name: 'vue单独模板编译测试',
+      component: () => import( /* webpackChunkName: "about" */ './views/处理边界情况/子组件（xTemplate）.vue')
+    },
+    {
+      path: '/vueExtend',
+      name: 'vue子组件Extend挂载',
+      component: () => import( /* webpackChunkName: "about" */ './views/处理边界情况/子组件（测试extend子组件挂载）.vue')
+    },
+    {
+      path: '/vueNextTick',
+      name: 'vueNextTick机制测试',
+      component: () => import( /* webpackChunkName: "about" */ './views/Vue（nextTick机制测试）.vue')
+    }
   ]
 })
